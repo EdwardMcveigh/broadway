@@ -1,0 +1,72 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.container {
+  background-image: url("./img/building.png");
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+
+}
+
+.container h1 {
+  font-size: 70px;
+}
+
+.navigation li, a {
+  list-style: none;
+  font-size: 18px;
+  color: white;
+}
+
+.process h2,
+.newyork .nyhdr {
+  font-size: 32px
+  font-weight: bold;
+}
+
+.process h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.process p {
+  font-size: 14px;
+}
+
+.newyork .nyhdr {
+  color: white;
+  background-image: url("./img/building.png")
+}
+
+.newyork {
+  color: black;
+}
+
+.copyright {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
+
+.bottomnav ul li {
+  list-style: none;
+  display: inline-block;
+
+}
