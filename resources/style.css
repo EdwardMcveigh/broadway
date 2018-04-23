@@ -8,13 +8,6 @@ body {
   font-weight: bold;
 }
 
-.black {
-  color: black;
-}
-
-.white {
-  color: white;
-}
 
 .container {
   background-image: url("./img/building.png");
@@ -26,26 +19,32 @@ body {
 
 .container h1 {
   font-size: 70px;
+  color: white;
 }
 
 .navigation li, a {
   list-style: none;
   font-size: 18px;
   color: white;
+  font-family: Helvetica;
 }
 
-.process h2,
-.newyork .nyhdr {
+.process {
+  color: black;
+}
+
+.process h2{
   font-size: 32px
   font-weight: bold;
+  color: black;
 }
 
-.process h3 {
+.process h3, .newyork h3 {
   font-size: 23px;
   font-weight: bold;
 }
 
-.process p {
+.process p, .newyork p {
   font-size: 14px;
 }
 
@@ -68,5 +67,4 @@ body {
 .bottomnav ul li {
   list-style: none;
   display: inline-block;
-
 }
